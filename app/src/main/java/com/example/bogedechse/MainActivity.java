@@ -3,7 +3,6 @@ package com.example.bogedechse;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recycler_v);
         recyclerView.setHasFixedSize(true);
-
 
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);

@@ -8,11 +8,10 @@ public class Pokemon {
     private int id;
     private Bitmap sprite;
 
-    public Pokemon(String n, String u, int id) {
+    public Pokemon(String n, String u) {
 
             this.name = n;
             this.url = u;
-            this.id = id;
     }
 
     public String getName() {
@@ -21,6 +20,10 @@ public class Pokemon {
 
     public String getUrl() {
         return url;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getId() {
