@@ -1,4 +1,4 @@
-package com.example.bogedechse;
+package com.example.pokedachs;
 
 import org.junit.Test;
 
